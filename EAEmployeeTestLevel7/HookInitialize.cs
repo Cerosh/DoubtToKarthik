@@ -8,7 +8,7 @@ namespace EAEmployeeTestLevel7
 
         public HookInitialize() : base(BrowserType.Chrome)
         {
-
+            System.Console.WriteLine("Inside the Hook");
             InitializeSettings();
             NavigateSite();
         }
